@@ -79,3 +79,27 @@ Blockchain-based storage makes vote records **transparent and tamper-resistant**
 
 MCA — Computer Science
 Savitribai Phule Pune University
+
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/Homepage.jpg)
+
+### Role Selection
+![Role Selection](screenshots/Role.jpg)
+
+### Voting
+![Voting](screenshots/Voting.jpg)
+
+### Voted Confirmation
+![Voted Confirmation](screenshots/Voted.jpg)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/Admin.jpg)
+
+### Add Data
+![Add Data](screenshots/AddData.jpg)
+
+### Final Results
+![Final Results](screenshots/FinalResults.jpg)
