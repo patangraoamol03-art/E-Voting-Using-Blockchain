@@ -1,0 +1,102 @@
+.admin {
+  padding: 20px 0;
+}
+
+.admin-grid-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.admin-stat {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.admin-countdown {
+  color: #00d68f;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.admin-section {
+  margin-bottom: 24px;
+}
+
+.admin-time-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 14px;
+  align-items: end;
+}
+
+@media (max-width: 640px) {
+  .admin-form {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-cand {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-actions {
+    flex-direction: column;
+  }
+}
+
+.admin-empty {
+  color: #8b97a3;
+  text-align: center;
+}
+
+.admin-cand-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-cand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.admin-cand h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.admin-cand p {
+  color: #8b97a3;
+  font-size: 13px;
+  margin: 0;
+}
+
+.admin-votes {
+  display: inline-block;
+  margin-top: 6px;
+  color: #00d68f;
+  font-size: 13px;
+  font-weight: 600;
+}

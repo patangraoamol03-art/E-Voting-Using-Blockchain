@@ -1,0 +1,5 @@
+e-voting-blockchain/.env
+solidity-BE/broadcast/
+solidity-BE/cache/
+solidity-BE/out/
+e-voting-blockchain/node_modules/
